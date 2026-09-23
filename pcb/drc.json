@@ -1,0 +1,199 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-13T11:25:18",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "secador-toalha.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segmento no Edge.Cuts",
+                    "pos": {
+                        "x": 89.5,
+                        "y": 95.0
+                    },
+                    "uuid": "4bb4f66f-9e85-431d-b5b8-184e796bcf5b"
+                },
+                {
+                    "description": "Campo de referência do PS1",
+                    "pos": {
+                        "x": 89.54,
+                        "y": 56.3
+                    },
+                    "uuid": "b008b044-e569-4c12-8bbf-4f0d34bc341c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segmento no Edge.Cuts",
+                    "pos": {
+                        "x": 89.5,
+                        "y": 95.0
+                    },
+                    "uuid": "4bb4f66f-9e85-431d-b5b8-184e796bcf5b"
+                },
+                {
+                    "description": "Segmento de PS1 em F.Silkscreen",
+                    "pos": {
+                        "x": 71.03,
+                        "y": 57.14
+                    },
+                    "uuid": "cd347fba-ff6a-44d3-86a3-b5f9a5916c0a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segmento no Edge.Cuts",
+                    "pos": {
+                        "x": 89.5,
+                        "y": 95.0
+                    },
+                    "uuid": "4bb4f66f-9e85-431d-b5b8-184e796bcf5b"
+                },
+                {
+                    "description": "Segmento de PS1 em F.Silkscreen",
+                    "pos": {
+                        "x": 108.05,
+                        "y": 79.86
+                    },
+                    "uuid": "4c2a3328-4ab0-48c4-bae6-92ef7dbcb473"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segmento no Edge.Cuts",
+                    "pos": {
+                        "x": 89.5,
+                        "y": 95.0
+                    },
+                    "uuid": "4bb4f66f-9e85-431d-b5b8-184e796bcf5b"
+                },
+                {
+                    "description": "Campo de referência do U1",
+                    "pos": {
+                        "x": 89.98,
+                        "y": 92.33
+                    },
+                    "uuid": "1250b539-cc4e-4e9a-ab10-ae787160f05f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segmento no Edge.Cuts",
+                    "pos": {
+                        "x": 91.5,
+                        "y": 40.0
+                    },
+                    "uuid": "7411ea00-1ec8-40e3-a19d-179c1a65711f"
+                },
+                {
+                    "description": "Segmento de U1 em F.Silkscreen",
+                    "pos": {
+                        "x": 90.98,
+                        "y": 91.33
+                    },
+                    "uuid": "9b77e9b8-9381-4996-acfe-9dda951ec1d4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segmento no Edge.Cuts",
+                    "pos": {
+                        "x": 89.5,
+                        "y": 95.0
+                    },
+                    "uuid": "4bb4f66f-9e85-431d-b5b8-184e796bcf5b"
+                },
+                {
+                    "description": "Segmento de U1 em F.Silkscreen",
+                    "pos": {
+                        "x": 93.215,
+                        "y": 83.59
+                    },
+                    "uuid": "220e29c5-e65a-4519-8b52-248ffd896bbd"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segmento no Edge.Cuts",
+                    "pos": {
+                        "x": 89.5,
+                        "y": 95.0
+                    },
+                    "uuid": "4bb4f66f-9e85-431d-b5b8-184e796bcf5b"
+                },
+                {
+                    "description": "Arco de U1 em F.Silkscreen",
+                    "pos": {
+                        "x": 89.98,
+                        "y": 91.33
+                    },
+                    "uuid": "6a702b14-458c-40d9-8b98-76106060e2dd"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        }
+    ]
+}

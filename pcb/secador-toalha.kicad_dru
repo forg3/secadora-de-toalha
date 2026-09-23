@@ -1,0 +1,4 @@
+(version 1)
+(rule "isolacao reforcada HV x LV"
+  (constraint clearance (min 8mm))
+  (condition "(A.hasNetclass('HV') || A.hasNetclass('HV_SIG')) && !(B.hasNetclass('HV') || B.hasNetclass('HV_SIG')) && B.NetName != ''"))

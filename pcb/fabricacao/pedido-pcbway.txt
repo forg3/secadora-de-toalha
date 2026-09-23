@@ -1,0 +1,63 @@
+PEDIDO PCBWAY — placa de controle do secador de toalhas, rev A
+Página: https://www.pcbway.com/quotesmt.aspx (aba Assembly)
+===============================================================
+
+ARQUIVOS PARA ENVIAR
+  secador-toalha-gerbers.zip        Gerber + furação (PTH e NPTH separados)       -> "Upload Gerber File"
+  secador-toalha-bom-pcbway.xlsx    lista de materiais (a PCBWay só aceita Excel) -> BOM
+  secador-toalha-posicao.csv        posição dos componentes (opcional para THT)   -> Centroid / Pick & Place
+  secador-toalha-montagem.pdf       desenho de montagem (referências e polaridade)-> Assembly drawing
+
+ASSEMBLY SERVICE
+  3 flexible options ............. Turnkey
+  Board type ..................... Single pieces
+  Assembly side(s) ............... Top side          (o PDF estava em "Both sides": trocar)
+  Quantity ....................... 2
+  Contains sensitive components .. No
+  Accept alternatives made in China  Yes             (exceções escritas no "Detailed information")
+
+OTHER PARAMETERS
+  Number of Unique Parts ......... 16
+  Number of SMD Parts ............ 0
+  Number of BGA/QFP Parts ........ 0
+  Number of Through-Hole Parts ... 22
+
+CUSTOMIZED SERVICES (todos No, exceto a caixa)
+  Depanel No · Function test No · Conformal coating No · Firmware loading No
+  Press-fit No · Box build No · Cable wire harness No · Flying probe No
+  Package box Neutral box · Number of X-ray test: deixar vazio
+
+  Detailed information of assembly (colar):
+    THT-only assembly, top side, 2 boards. Mains-powered board (127 VAC).
+    U1 must be onsemi MOC3063TVM (0.4 inch wide leads); its pin 5 goes into an
+    unplated hole and must NOT be soldered.
+    No substitutes for: U1 MOC3063TVM, PS1 HLK-PM01, C1 (must be X2 safety rated
+    275 VAC), RV1 (275 VAC varistor), F1 fuse 5A slow-blow. Other parts may be equivalent.
+    Do not place the ESP32 module: J5/J6 are female sockets only.
+    Q1 BTA16-600BRG and the JST housings/contacts are DNP: ship them loose with the boards.
+    Please wash the boards: no flux residue between the high-voltage and low-voltage areas.
+
+PCB SPECIFICATIONS
+  Board type Single pieces · Different design in panel 1 · Size 115 x 75 mm · Quantity 5
+  Layers 2 · Material FR-4 · FR4-TG 150-160 · Thickness 1.6 mm
+  Min track/spacing 8/8mil ↑   (menor trilha 0,4 mm e menor folga 0,3 mm)
+  Min hole size 0.3mm ↑        (há 1 via com furo de 0,3 mm)
+  Solder mask Green            (o PDF estava em Black: trocar)
+  Silkscreen White · UV printing None · Edge connector No · Surface finish HASL lead free
+  Via process Tenting vias · Finished copper 1 oz Cu
+  Remove product No. ......... Specify a location   (o texto "WayWayWay" já está na serigrafia)
+  Peelable soldermask None · Hole copper Standard (20um) · UL marking None · Date code None
+  Package box With PCBWay logo (ou neutro) · Serial numbers None · nenhuma caixinha marcada
+
+  Other special request (colar):
+    The 2 x 55 mm internal slot on Edge.Cuts is intentional (high/low voltage isolation),
+    please mill it. Place the PCB order number at the "WayWayWay" silkscreen text.
+
+DEPOIS DE RECEBER
+  1. Confira a serigrafia do ESP32-C3 SuperMini: a fileira 5V/GND/3V3 deve ficar no J5,
+     com o USB-C voltado para a borda de cima da placa.
+  2. Grave o firmware (pasta firmware/) ANTES de ligar a placa na tomada, só pela USB-C.
+  3. Primeiro teste na tomada: com uma lâmpada incandescente no lugar das barras em J2,
+     sempre com a placa dentro da caixa fechada. Nunca encoste na placa ligada.
+  4. Nunca ligue a USB-C do ESP32 no computador com a placa na tomada: o 5 V da USB e o da
+     HLK-PM01 ficam em paralelo. Com a placa instalada, atualize pelo navegador.
