@@ -93,7 +93,6 @@ O firmware foi desenvolvido em C++17 com separação completa entre regras de ne
 
 ```
 ├── comparativo-secador-aluminio.html      # Estudo técnico comparativo, custos e balanço térmico
-├── prompt master kicad.md                 # Diretrizes e regras de automação EDA no KiCad 10
 ├── Esquemático Completo do Secador...png  # Diagrama esquemático ilustrativo
 ├── Infográfico Técnico_ Secador...png     # Diagrama em blocos e fluxo de potência
 ├── pcb/                                   # Projeto de hardware no KiCad 10
