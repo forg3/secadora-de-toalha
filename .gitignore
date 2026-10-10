@@ -14,3 +14,6 @@ __pycache__/
 *~
 *.swp
 .DS_Store
+
+# Regra do GitHub: pesquisa, prompt, plano e especificação ficam só na pasta local.
+/prompt master kicad.md
